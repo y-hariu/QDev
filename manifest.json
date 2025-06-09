@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Geminiで",
+  "version": "1.0",
+  "description": "選択したテキストをGeminiで調べる・翻訳する",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://gemini.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "images/favi_16.png",
+      "48": "images/favi_48.png",
+      "128": "images/favi_180.png"
+    }
+  },
+  "icons": {
+    "16": "images/favi_16.png",
+    "48": "images/favi_48.png",
+    "128": "images/favi_180.png"
+  }
+}
