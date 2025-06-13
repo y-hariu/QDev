@@ -1,0 +1,44 @@
+# MacOS固有のファイル
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows固有のファイル
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Node.js関連
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Chrome拡張機能ビルドファイル
+*.crx
+*.pem
+*.zip
+
+# エディタ固有のファイル
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# その他
+*.log
+*.tmp
+*.bak
