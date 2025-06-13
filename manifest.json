@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Geminiで",
+  "name": "Geminiで＋パスワード",
   "version": "1.0",
-  "description": "選択したテキストをGeminiで調べる・翻訳する",
+  "description": "選択したテキストをGeminiで調べる・翻訳する・パスワードを生成",
   "permissions": [
     "contextMenus",
     "scripting",
